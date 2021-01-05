@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog New Year 2021</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <!--nav bar--->
+<nav>
+    <div id="logo"><img src="./logo.jpg" alt="Logo" class="logo-img"></div>
+    <div>
+      <a class="white" href="#home">Home</a>
+      <a class="white" href="#about">About Me</a>
+      <a class="white" href="#resolutions">Resolutions</a>
+      <a class="white" href="#stories">My Stories</a>
+    </div>
+  </nav>
+  
+  <!--header or home section--->
+  <header id="home">
+    <h1></h1>
+  </header>
+  
+  <!--about me--->
+  <div>
+    <div class="section" id="about">
+      <h2>About Me</h2>
+      <p id="about-me"> I am Mayank Agarwal
+       I am Studing in Amanora School which is 
+       in <b>PUNE</b> and I am a ProGrad Junior.
+      </p>
+    </div>
+    <div class="button"  id="about">
+      <button>
+        <p id="para-connect"> Connect With Me </p>
+      </button>
+    </div>
+  </div>
+  
+
+  <!-- resolutions -->
+
+  <div class="section" id="resolutions">
+    <h1>My New Year Resolutions</h1>
+    <img src="Resolutions.png" alt="">
+    <ol>
+      <li>1. Do Coding Everyday</li>
+      <li>2. Eat Vegetables and Fruits Everyday</li>
+      <li>3. Studing Everyday for 3 to 4 hours.</li>
+    </ol>
+  </div>
+  <!--stories--->
+  <div class="section" id="stories">
+    <h2>My Stories</h2>
+    <div class="container" id="box">
+      <div>
+        <img class="image-container" src="story1.jpg">
+        <h3> <a class="bucket-list text-big" href="https://mayank-coder12.github.io/Bucket-List-for-New-Year-2021-Happy-New-Year-List/">Make a List You Want to Do.</a></p>
+      </div>
+  
+      <div>
+        <img class="image-container" src="story2.jpg">
+        <h3><a href="https://www.timeanddate.com/countdown/newyear" class="countdown text-big">New Year Countdown <br></a></h3>
+       
+      </div>
+  
+      <div>
+        <img class="image-container" src="story3.jpg">
+        <h3> <a href="https://happynewyear2021.net/in/" class="wishes text-big">New Year Wishes</a></h3>
+       
+      </div>
+    </div>
+  
+    <!--footer--->
+    <footer>
+      <h3>Built by ProGrad Junior, Mayank Agarwal</h3>
+    </footer>
+    <script>
+      var paraConnect = document.getElementById("para-connect");
+
+      paraConnect.onclick=()=>{
+        location.href = "connect.html";
+      }
+    </script>
+</body>
+
+</html>
